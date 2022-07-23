@@ -1,0 +1,89 @@
+#widget-fave-html {
+  margin-left: 10px;
+  width: unset;
+}
+#widget-fave-html .ssw-fave-btn {
+  line-height: 20px;
+}
+
+#widget-fave-html .ssw-fave-btn-content {
+  font-size: 0;
+  padding: 13px 10px;
+  border-radius: 30px;
+  border: 0;
+  display: flex;
+}
+
+#widget-fave-html .ssw-fave-btn-content i {
+  font-size: 20px;
+  margin-right: 0;
+  color: #fa1d71;
+}
+
+#widget-fave-html .ssw-fave-btn-counter {
+  display: none;
+}
+
+#widget-fave-html .ssw-fave-btn {
+  width: unset;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #2b2b2b;
+  border-radius: 30px;
+}
+
+#widget-fave-html:hover .ssw-fave-btn-content i {
+  color: #fff;
+} 
+
+a.ssw-ask-question-link.btn.button.gw-btn-bg.gw-fsize-md.gw-review-btn,
+a#add_recommend {
+  line-height: 24px;
+}
+
+.ssw-faveiticon {
+  position: absolute!important;
+  left: -5px;
+  display: flex;
+}
+
+.ssw-reward-refer-share-btns .ssw-reward-inline, 
+#ssw-reward-page-refer-friend .ssw-reward-inline {
+  padding: 0;
+}
+
+a.ssw-reward-inline.ssw-reward-refer-share-btn.ssw-reward-refer-whatsapp {
+  border-radius: unset;
+}
+
+#ssw-widget-recommends-html {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+a.ssw-link-fave-menu.ssw-link-fave-menu-hide-count {
+  color: #ff0071 !important;
+}
+
+button.btn.gw-wishlist-btn.gw-btn-bg {
+    margin-top: 10px;
+}
+
+.ssw-link-fave-menu.ssw-link-fave-menu-hide-count {
+  margin-left: -6px;
+}
+
+a[href="https://www.shapewearusa.com/pages/reward"] {
+  margin-right: -2px;
+} 
+
+a[href="https://www.shapewearusa.com/pages/reward"] .ssw-reward-icon {
+  height: 28px;
+  vertical-align: baseline;
+}
+
+@media (min-width: 480px) {
+  .ssw-reward-tab.ssw-reward-side-tab-right {
+    right: -45px;
+  }
+}

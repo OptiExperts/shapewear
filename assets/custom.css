@@ -1,0 +1,179 @@
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+<!--from old theme-->
+.page-head h1 {
+font-weight: 500 !important;
+color:#222;
+}
+.section-title { 
+font-weight:600 !important;
+color: #222;
+}
+.pr_grid_item .product-image:hover .hover_button {
+    opacity: 0;display:none;
+}
+.btn_size_guide {
+font-weight:bold;
+}
+<!--from old theme-->
+
+.post-time  > span {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.label_style_rectangular .nt_label {
+	padding: 4px 0;
+}
+.widget-title {
+    font-weight: 600;
+}
+.quantity .tc a, .quantity .tc button {
+	line-height: 50px;
+}
+.quantity input.input-text[type="number"], .variations_form .quantity {
+	height: 50px;
+}
+.variations_button .nt_add_cp, .variations_button .nt_add_w {
+	min-width: 50px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+
+}
+.shopify-payment-button__button--unbranded {
+	padding: 0 2em;
+	line-height: 50px;
+}
+.f__mont, .f_heading, .h3, h1, h2, h3, h4, h5, h6 {
+color:#444 !important;
+}
+.mt__5 {
+color:#444 !important;
+}
+.newl_des_4 .signup-newsletter-form .submit-btn {
+background-color: #FF0071;
+}
+.cat_view.col-auto {
+display:none!important;
+}
+.bgbl.pt__20.pb__20.lh__1.breadcrumb_pr_wrap {
+display:none!important;
+}
+
+.frm_cart_ajax_true .btn_btn2t4, .frm_cart_ajax_true .btn_checkout {
+    border-radius: 4px!important;
+    height: 54px!important;
+}
+#trustlogo2 {
+    display:none;
+}
+
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+  h4 {
+    font-size: 18px;
+}
+<!--from old theme-->
+#bk_1601430533771-7 .dek_img_slide.nt_bg_lz {
+    padding-top: 130.9999% !important
+}
+<!--from old theme-->
+
+.dynamic-checkout__content .shopify-cleanslate ul {
+    padding: 0;
+    list-style: none;
+    width: 280px!important;
+    text-align:center!important;
+}
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+  <!--from old theme-->
+.cat_space_item {
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+	}
+<!--from old theme-->
+.cat_design_5 .cat_grid_item__title, .cat_design_8 .cat_grid_item__title {
+    font-size: 15px;
+}
+h4 {
+    font-size: 16px;
+}
+.mb_nav_title {
+display:none;
+}
+.des_btns_prmb_2 .pr_grid_item .product-image .nt_add_qv, .des_btns_prmb_2 .pr_grid_item .product-image .pr_atc {
+display:none!important;
+}
+.des_btns_prmb_2 .pr_grid_item .product-image .hover_button {
+display:none!important;
+}
+#trustlogo {
+    display:none;
+  }
+#trustlogo2 {
+    bottom: 14px;
+    position: fixed;
+    right: 57px;
+    z-index: 9999!important;
+    display: inline;
+}
+.dynamic-checkout__content .shopify-cleanslate ul {
+    padding: 0;
+    list-style: none;
+    text-align:center!important;
+}
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px){
+  .nt_action>a, .nt_action {
+padding:0!important;
+}
+.ssw-reward-icon { display:none!important;
+ }
+.intercom-lightweight-app-launcher {
+   
+    bottom: 20px!important;
+ } 
+ .intercom-lightweight-app-launcher-icon-open     {
+    width: 20px!important;
+    height: 20px!important;
+    left: 10px!important;
+    top: 10px!important;
+   }
+  .intercom-lightweight-app-launcher {
+    width: 40px!important;
+    height: 40px!important;
+    bottom: 15px!important;
+    right: 10px!important;
+   }
+.frm_cart_ajax_true .btn_btn2t4, .frm_cart_ajax_true .btn_checkout {
+    border-radius: 5px!important;
+}
+}
+
+.btn_size_guide {
+font-weight:bold;
+}
+.btn_size_guide {
+    color: #217c90;
+}
+
+.gt_dsk {
+    margin-left:16px;
+    margin-bottom:9px;
+}
+.switcher .option {position:absolute!important;}

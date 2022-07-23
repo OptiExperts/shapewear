@@ -1,0 +1,38 @@
+/*-----------------------------------------------------------------------------/
+/ Custom Theme CSS
+/-----------------------------------------------------------------------------*/
+/*---------------- Global Custom CSS -------------------*/
+{{settings.global_css }}
+
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+  {{settings.desktop_css }}
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+  {{settings.tablet_mobile_css }}
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  {{settings.tablet_css }}
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px){
+  {{settings.mobile_css }}
+}
+
+.btn_size_guide {
+font-weight:bold;
+}
+.btn_size_guide {
+    color: #217c90;
+}
+
+.gt_dsk {
+    margin-left:16px;
+    margin-bottom:9px;
+}
+.switcher .option {position:absolute!important;}
